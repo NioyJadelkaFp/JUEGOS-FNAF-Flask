@@ -2,19 +2,19 @@
     {
         "title": "Mejoras",
         "subtitle": "Agregar Menu",
-        "text": "Para optimizar la navegación de esta web, hemos decidido incorporar un menú que mejorará significativamente la experiencia del usuario",
+        "text": "Para optimizar la navegaci\u00c3\u00b3n de esta web, hemos decidido incorporar un men\u00c3\u00ba que mejorar\u00c3\u00a1 significativamente la experiencia del usuario",
         "footer": "27/AGO/24"
     },
     {
         "title": "Mejoras",
         "subtitle": "Icono De Web",
-        "text": "Hemos agregado un ícono temporal a la web. Es una solución provisional y no definitiva.",
-        "footer": "27/AGO/24"   
+        "text": "Hemos agregado un \u00c3\u00adcono temporal a la web. Es una soluci\u00c3\u00b3n provisional y no definitiva.",
+        "footer": "27/AGO/24"
     },
     {
         "title": "Bug",
         "subtitle": "No Tildes",
         "text": "Actualmente, en algunos navegadores, las palabras con tildes no se muestran correctamente.",
-        "footer": "27/AGO/24"   
+        "footer": "27/AGO/24"
     }
 ]

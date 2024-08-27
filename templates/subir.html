@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block title %}Subir Juego{% endblock %}
+
+{% block content %}
+
+<style>
+    .subir{
+        width: 70%;
+        height: 70vh;
+
+        display: flex;
+        margin: 50px auto;
+        flex-direction: column;
+        align-items: stretch;        
+    }
+</style>
+
+<form class="subir" method="POST" action="{{ url_for('subire') }}">
+    <div class="mb-3">
+        <label for="exampleInputTipo" class="form-label">Tipo De Informacion</label>
+        <select name="tipo" id="tipo">
+          <option value="Error">Error</option>
+          <option value="Bug">Bug</option>
+          <option value="Mejoras">Mejoras</option>
+        </select>
+      </div>
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Sub Titulo</label>
+      <input type="SubTitle" class="form-control" id="SubTitle" name="SubTitle">
+      <div id="SubTitles" class="form-text">Sub Titulo que aparece en la tarjeta</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Informacion</label>
+      <input type="text" class="form-control" id="Info" name="Info">
+      <div id="Infos" class="form-text">Infomacion de la tarjeta</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Fecha</label>
+      <input type="date" class="form-control" id="date" name="date">
+      <div id="Infos" class="form-text">Fecha de hoy</div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <br>
+  <br>
+  <br>
+
+{% endblock %}

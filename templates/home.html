@@ -3,22 +3,25 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
-{% for item in juegos %}
 
-    <div class="card" style="width: 400px; height: 500px; display: flex; margin: 0 auto;" >
-        <img src="{{ url_for('static', filename=item.img) }}"  style="object-fit: cover; height: 50%; width: 100%;" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">{{ item.name }}</h5>
-            <p class="card-text"><small class="text-body-secondary">Fecha De Lanzamiento - {{item.fecha}}</small></p>
-            <p class="card-text">{{ item.descripcion }}</p>
-            <a href="{{ item.link1 }}" class="btn btn-primary">PC</a>
-           <!--  <a href="{{ item.link2 }}" class="btn btn-primary disabled" aria-disabled="true">ANDROID</a> -->
+<main style="display: flex; gap:10px;  flex-wrap: wrap; width: 100%; justify-content: center; ">
 
-           <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Solo Para Pc">
-            <button class="btn btn-primary" type="button" disabled>ANDROID</button>
-          </span>
+{% for item in mejoras %}
 
-        </div>
+<div class="card text-left" style="max-width: 300px; height: auto;">
+    <div class="card-header">
+      {{ item.title}}
     </div>
+    <div class="card-body">
+      <h5 class="card-title">{{ item.subtitle }}</h5>
+      <p class="card-text" style="max-width: 300px;">{{ item.text }}</p>
+    </div>
+    <div class="card-footer text-body-secondary">
+      {{ item.footer }}
+    </div>
+  </div>
 {% endfor %}
+
+</main>
+
 {% endblock %}

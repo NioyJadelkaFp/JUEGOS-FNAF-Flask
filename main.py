@@ -4,14 +4,21 @@ import json
 app = Flask(__name__)
 
 @app.route('/')
-@app.route('/fnaf')
 def home():
+    with open('mejora.json') as json_file:
+        mejoras = json.load(json_file)
+
+    return render_template('home.html', mejoras=mejoras)
+
+
+@app.route('/fnaf')
+def fnaf():
     title = "Fnaf Juegos"
 
     with open('juegos.json') as json_file:
         juegos = json.load(json_file)
 
-    return render_template('home.html', title=title, juegos=juegos)
+    return render_template('fnaf.html', title=title, juegos=juegos)
 
 if __name__ == '__main__':
     app.run(debug=True)

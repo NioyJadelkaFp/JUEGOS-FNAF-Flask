@@ -4,6 +4,17 @@
         "subtitle": "Agregar Menu",
         "text": "Para optimizar la navegación de esta web, hemos decidido incorporar un menú que mejorará significativamente la experiencia del usuario",
         "footer": "27/AGO/24"
+    },
+    {
+        "title": "Mejoras",
+        "subtitle": "Icono De Web",
+        "text": "Hemos agregado un ícono temporal a la web. Es una solución provisional y no definitiva.",
+        "footer": "27/AGO/24"   
+    },
+    {
+        "title": "Bug",
+        "subtitle": "No Tildes",
+        "text": "Actualmente, en algunos navegadores, las palabras con tildes no se muestran correctamente.",
+        "footer": "27/AGO/24"   
     }
-      
 ]

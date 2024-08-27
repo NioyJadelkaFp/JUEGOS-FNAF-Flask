@@ -9,7 +9,7 @@
 
 {% for item in juegos %}
 
-    <div class="card" style="width: 400px; height: 500px; display: flex; margin: 0 auto;" >
+    <div class="card" style="width: 400px; height: 500px; display: flex; margin: 0 auto; border-radius: 10px;" >
         <img src="{{ url_for('static', filename=item.img) }}"  style="object-fit: cover; height: 50%; width: 100%;" alt="...">
         <div class="card-body">
             <h5 class="card-title">{{ item.name }}</h5>

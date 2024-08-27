@@ -9,8 +9,15 @@
 {% for item in mejoras %}
 
 <div class="card text-left" style="max-width: 300px; height: auto;">
-    <div class="card-header">
-      {{ item.title}}
+    <div class="card-header 
+         {% if item.title == 'Mejoras' %}
+            bg-info
+         {% elif item.title == 'Bug' %}
+            bg-warning
+         {% elif item.title == 'Error' %}
+            bg-danger
+         {% endif %}" style="color: white;">
+      {{ item.title }}
     </div>
     <div class="card-body">
       <h5 class="card-title">{{ item.subtitle }}</h5>
@@ -19,7 +26,9 @@
     <div class="card-footer text-body-secondary">
       {{ item.footer }}
     </div>
-  </div>
+</div>
+
+
 {% endfor %}
 
 </main>

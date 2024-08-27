@@ -3,18 +3,24 @@
         "title": "Mejoras",
         "subtitle": "Agregar Menu",
         "text": "Para optimizar la navegaci\u00c3\u00b3n de esta web, hemos decidido incorporar un men\u00c3\u00ba que mejorar\u00c3\u00a1 significativamente la experiencia del usuario",
-        "footer": "27/AGO/24"
+        "footer": "2024-08-26"
     },
     {
         "title": "Mejoras",
         "subtitle": "Icono De Web",
         "text": "Hemos agregado un \u00c3\u00adcono temporal a la web. Es una soluci\u00c3\u00b3n provisional y no definitiva.",
-        "footer": "27/AGO/24"
+        "footer": "2024-08-26"
     },
     {
         "title": "Bug",
         "subtitle": "No Tildes",
         "text": "Actualmente, en algunos navegadores, las palabras con tildes no se muestran correctamente.",
-        "footer": "27/AGO/24"
+        "footer": "2024-08-26"
+    },
+    {
+        "title": "Mejoras",
+        "subtitle": "Apartado de Android agregado",
+        "text": "juegos de m\u00f3viles agregados ",
+        "footer": "2024-08-27"
     }
 ]

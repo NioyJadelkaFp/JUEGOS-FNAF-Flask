@@ -1,17 +1,16 @@
-from flask import Flask, render_template, request, redirect
+from flask import Blueprint, render_template, request, redirect
 import json
 
-app = Flask(__name__)
+jg = Blueprint('jg', __name__, template_folder='JUEGOS/templates')
 
-@app.route('/')
+@jg.route('/')
 def home():
     with open('JUEGOS/mejora.json') as json_file:
         mejoras = json.load(json_file)
 
     return render_template('home.html', mejoras=mejoras)
 
-
-@app.route('/fnaf')
+@jg.route('/fnaf')
 def fnaf():
     title = "Fnaf Juegos"
 
@@ -20,14 +19,13 @@ def fnaf():
 
     return render_template('fnaf.html', title=title, juegos=juegos)
 
-@app.route('/subir')
-def Subir():
+@jg.route('/subir')
+def subir():
     return render_template('subir.html')
 
-@app.route('/subire', methods=["POST"])
+@jg.route('/subire', methods=["POST"])
 def subire():
-
-    with open('mejora.json', 'r') as file:
+    with open('JUEGOS/mejora.json', 'r') as file:
         jsonData = json.load(file)
 
     tipo = request.form["tipo"]
@@ -36,18 +34,15 @@ def subire():
     date = request.form["date"]
 
     new_data = {
-    "title": tipo,
-    "subtitle": title,
-    "text": informacion,
-    "footer": date
-    
+        "title": tipo,
+        "subtitle": title,
+        "text": informacion,
+        "footer": date
     }
+
     jsonData.append(new_data)
 
-    with open('mejora.json', 'w') as file:
+    with open('JUEGOS/mejora.json', 'w') as file:
         json.dump(jsonData, file, indent=4)
 
     return redirect("/subir")
-
-if __name__ == '__main__':
-    app.run(debug=True)

@@ -1,43 +1,42 @@
 [
-    {
-      "nombre": "Five Nights at Freddy's",
-      "fecha": "8 de agosto de 2014",
-      "descripcion": "Sobrevive como guardia nocturno en una pizzería. Usa cámaras y recursos limitados para evitar animatrónicos. El juego es conocido por su atmósfera tensa y sustos repentinos.",
-      "img": "Img/fnaf1.webp",
-      "link1": "https://www.mediafire.com/file/rmodvm58m8kzj21/FiveNightsatFreddys.exe/file",
-      "link2": "https://www.mediafire.com/file/30yvibnc5n26dia/com.illumix.fnafar16.1.0.rar/file"
-    },
-    {
-      "nombre": "Five Nights at Freddy's 2",
-      "fecha": "11 de noviembre de 2014",
-      "descripcion": "Secuela con nuevos animatrónicos y sin puertas de seguridad. Usa una máscara para evitar ataques. La dificultad aumenta con nuevas mecánicas.",
-      "img": "Img/fnaf2.webp",
-      "link1": "https://www.mediafire.com/file/v8a5hz248mosuc9/Five_Nights_At_Freddys_2.rar/file",
-      "link2": "https://www.mediafire.com/file/t016zfmqhnn16hk/com.scottgames.fnaf22.0.5.rar/file"
-    },
-    {
-      "nombre": "Five Nights at Freddy's 3",
-      "fecha": "2 de marzo de 2015",
-      "descripcion": "Ubicado en una atracción de terror con animatrónicos fantasmas y Springtrap. El objetivo es sobrevivir en una atmósfera aún más inquietante.",
-      "img": "Img/fnaf3.webp",
-      "link1": "https://www.mediafire.com/file/5tvyzr4tz1lwf9p/FiveNightsatFreddys3.exe/file",
-      "link2": "https://www.mediafire.com/file/vjtpa0xvgluq1tk/com.scottgames.fnaf32.0.2.rar/file"
-    },
-    {
-      "nombre": "Five Nights at Freddy's 4",
-      "fecha": "23 de julio de 2015",
-      "descripcion": "Situado en la casa de un niño, con versiones pesadillescas de los animatrónicos. Usa sonido y luz para sobrevivir. El enfoque está en el terror psicológico.",
-      "img": "Img/fnaf4.webp",
-      "link1": "https://www.mediafire.com/file/dpu5m43suvzehq0/FNAF4_OVF2.rar/file",
-      "link2": "https://www.mediafire.com/file/w02g1zg6ozekq1b/com.scottgames.fnaf42.0.2.rar/file"
-    },
-    {
-      "nombre": "Five Nights at Freddy's: Sister Location",
-      "fecha": "7 de octubre de 2016",
-      "descripcion": "Nueva ubicación y personajes, con tareas variadas para sobrevivir. Se aleja de la fórmula clásica, ofreciendo una experiencia distinta.",
-      "img": "Img/fnaf5.webp",
-      "link1": "https://www.mediafire.com/file/jpqh04g78bpgvz4/SisterLocation.exe/file",
-      "link2": "https://www.mediafire.com/file/yvweb823beaxg4k/com.scottgames.sisterlocation2.0.3.rar/file"
-    }
-  ]
-  
+  {
+    "nombre": "Five Nights at Freddy's",
+    "fecha": "8 de agosto de 2014",
+    "descripcion": "Sobrevive como guardia nocturno en una pizzería. Usa cámaras y recursos limitados para evitar animatrónicos. El juego es conocido por su atmósfera tensa y sustos repentinos.",
+    "img": "JUEGOS/Img/fnaf1.webp",
+    "link1": "https://www.mediafire.com/file/rmodvm58m8kzj21/FiveNightsatFreddys.exe/file",
+    "link2": "https://www.mediafire.com/file/30yvibnc5n26dia/com.illumix.fnafar16.1.0.rar/file"
+  },
+  {
+    "nombre": "Five Nights at Freddy's 2",
+    "fecha": "11 de noviembre de 2014",
+    "descripcion": "Secuela con nuevos animatrónicos y sin puertas de seguridad. Usa una máscara para evitar ataques. La dificultad aumenta con nuevas mecánicas.",
+    "img": "JUEGOS/Img/fnaf2.webp",
+    "link1": "https://www.mediafire.com/file/v8a5hz248mosuc9/Five_Nights_At_Freddys_2.rar/file",
+    "link2": "https://www.mediafire.com/file/t016zfmqhnn16hk/com.scottgames.fnaf22.0.5.rar/file"
+  },
+  {
+    "nombre": "Five Nights at Freddy's 3",
+    "fecha": "2 de marzo de 2015",
+    "descripcion": "Ubicado en una atracción de terror con animatrónicos fantasmas y Springtrap. El objetivo es sobrevivir en una atmósfera aún más inquietante.",
+    "img": "JUEGOS/Img/fnaf3.webp",
+    "link1": "https://www.mediafire.com/file/5tvyzr4tz1lwf9p/FiveNightsatFreddys3.exe/file",
+    "link2": "https://www.mediafire.com/file/vjtpa0xvgluq1tk/com.scottgames.fnaf32.0.2.rar/file"
+  },
+  {
+    "nombre": "Five Nights at Freddy's 4",
+    "fecha": "23 de julio de 2015",
+    "descripcion": "Situado en la casa de un niño, con versiones pesadillescas de los animatrónicos. Usa sonido y luz para sobrevivir. El enfoque está en el terror psicológico.",
+    "img": "JUEGOS/Img/fnaf4.webp",
+    "link1": "https://www.mediafire.com/file/dpu5m43suvzehq0/FNAF4_OVF2.rar/file",
+    "link2": "https://www.mediafire.com/file/w02g1zg6ozekq1b/com.scottgames.fnaf42.0.2.rar/file"
+  },
+  {
+    "nombre": "Five Nights at Freddy's: Sister Location",
+    "fecha": "7 de octubre de 2016",
+    "descripcion": "Nueva ubicación y personajes, con tareas variadas para sobrevivir. Se aleja de la fórmula clásica, ofreciendo una experiencia distinta.",
+    "img": "JUEGOS/Img/fnaf5.webp",
+    "link1": "https://www.mediafire.com/file/jpqh04g78bpgvz4/SisterLocation.exe/file",
+    "link2": "https://www.mediafire.com/file/yvweb823beaxg4k/com.scottgames.sisterlocation2.0.3.rar/file"
+  }
+]

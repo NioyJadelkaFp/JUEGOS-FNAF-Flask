@@ -4,14 +4,35 @@
 
 {% block content %}
 
-<main style="display: flex; gap:10px;  flex-wrap: wrap; width: 90%; margin: 0 auto;">
+<style>
+    .card {
+    border-radius: 10px;
+    overflow: hidden; /* Asegura que el contenido no sobresalga */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
+    background-color: #fff; /* Fondo blanco para la tarjeta */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto de transición suave */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Efecto de aumento al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el ratón */
+}
+.card-body{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+</style>
+<main style="display: flex; gap:10px;  flex-wrap: wrap; width: 100%; margin: 0 auto;">
 
 
 {% for item in juegos %}
 
-    <div class="card" style="width: 400px; height: 500px; display: flex; margin: 0 auto; border-radius: 10px;" >
-        <img src="{{ url_for('static', filename=item.img) }}"  style="object-fit: cover; height: 50%; width: 100%;" alt="...">
-        <div class="card-body">
+    <div class="card" style="width: 400px; height: auto; display: flex; margin: 0 auto; border-radius: 10px;" >
+        <img src="{{ item.img }}" style="object-fit: cover; height: 50%; width: 100%;" >
+        <div class="card-body" style="display: flex; justify-content: space-around;">
             <h5 class="card-title">{{ item.name }}</h5>
             <p class="card-text"><small class="text-body-secondary">Fecha De Lanzamiento - {{item.fecha}}</small></p>
             <p class="card-text">{{ item.descripcion }}</p>

@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from JUEGOS.main import jg
 from PORTAFOLIO.main import pr
 

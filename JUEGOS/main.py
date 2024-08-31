@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, request, redirect
 import json
 
-jg = Blueprint('jg', __name__, template_folder='JUEGOS/templates')
+jg = Blueprint('jg', __name__, template_folder='templates')
 
 @jg.route('/')
 def home():

@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.Nav{
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+    width: 50%;
+    height: 30px;
+}
+
+.Nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.Nav li{
+    margin: 10px;
+}
+
+.Nav a{
+    transition:  1.5s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bolder;
+    border-bottom: 1px ;
+    text-shadow: 
+        0px 0px 0.9px rgb(0, 0, 0),   
+        0px 0px 0.9px rgb(0, 0, 0), 
+        0px 0px 0.9px rgb(0, 0, 0);
+}
+
+.Nav a:hover{
+    transition: .5s all;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.Nav img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.Barrita{
+    margin: 0 auto;
+    width: 80%;
+}
+
+/*Cuerpo de la web*/
+
+.Cuerpo{
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    width: 75%;
+    height: 100vh;
+
+}
+
+/*Card*/
+
+.Card{
+    display: flex;
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+.Js-Componenete{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Des-Cont{
+    width: 50%;
+    height: 100%;
+}
+
+.contenidoUno{
+    margin: 10px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.contenidoDos{
+    margin: 10px;
+    margin-left: 40px;
+    height: 70%;
+}
+
+.BotonLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+

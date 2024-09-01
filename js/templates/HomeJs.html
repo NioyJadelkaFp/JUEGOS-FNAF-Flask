@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://nioywebsv.netlify.app/assets/favicon-Dop8k49V.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='EstilosJs/estilos.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JADELKA - {{ title }}</title>
+</head>
+
+<body>
+
+    <nav class="Nav">
+        <ul>
+            <li><img src="{{ url_for('static', filename='IconosJs/github.svg') }}" alt="GitHub Icon"></li>
+            <li><a href="https://github.com/NioyJadelkaFp">GitHud</a></li>
+            <li><img src="{{ url_for('static', filename='IconosJs/codepen.png') }}" alt=""></li>
+            <li><a href="https://codepen.io/Nioy">CodePen</a></li>
+            <li><img src="{{ url_for('static', filename='IconosJs/discord.svg') }}" alt=""></li>
+            <li><a href="https://discord.gg/pKXSyU2r95"> Discord</a></li>
+        </ul>
+    </nav>
+
+    <hr class="Barrita">
+
+    <section class="Cuerpo">
+
+        <style>
+            .Frases {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 5px;
+                width: 90%;
+                height: 200px;
+                border: 1px solid black;
+                border-radius: 10px;
+                overflow: hidden;
+                flex-wrap: wrap;
+            }
+
+            .Frases header {
+                width: 90%;
+                height: 5%;
+                margin: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 20px;
+            }
+
+
+            .Frases img {
+                width: 20px;
+                height: 20px;
+                border-radius: 100%;
+            }
+
+            .Frase {
+                width: 90%;
+                height: 50%;
+            }
+
+            .Frase p {
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                word-break: keep-all;
+                hyphens: auto;
+                font-size: 10px;
+            }
+
+            .Fecha {
+                width: 90%;
+                height: 10%;
+            }
+        </style>
+
+        <div class="Card">
+            <section class="Js-Componenete">
+                <!--Contenido con js-->
+
+                <section class="Frases">
+                    <header>
+                        <img src="https://nioywebsv.netlify.app/assets/favicon-Dop8k49V.jpg" alt="">
+                        <h3>Titulo</h3>
+                    </header>
+                    <section class="Frase">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, pariatur at magni
+                            reiciendis quiet corporis officia architecto maxime corrupti ipsam aspernatur, perspiciatis,
+                            assumenda optio itaque quod? Quibusdam consequuntur ullam deleniti voluptas alias, dolorum
+                            voluptatibus fugit vero et quisquam sit perspiciatis porro. Sapiente quidem earum expedita
+                            eveniet? Consequuntur repellendus placeat modi soluta a voluptatibus quibusdam quo odit
+                            mollitia, voluptates vitae. Dicta quis deserunt asperiores</p>
+                    </section>
+                    <section class="Fecha">
+                        <span>01/09/2024</span>
+                    </section>
+                </section>
+
+
+            </section>
+
+            <!--Contenido Js-->
+            <script type="modulo">
+
+            </script>
+
+            <section class="Des-Cont">
+                <h3 class="contenidoUno">Comunicado</h3>
+
+                <p class="contenidoDos">"Una tarjeta (card) está diseñada para mostrar información del usuario, incluyendo una foto, un título, una descripción y la fecha de publicación."</p>
+                <hr class="Barrita">
+
+                <a class="BotonLink" href="https://codepen.io/Nioy/pen/oNRqWBy">Codepen</a>
+            </section>
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>

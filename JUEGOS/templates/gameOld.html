@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+
+<style>
+    .card {
+    border-radius: 10px;
+    overflow: hidden; /* Asegura que el contenido no sobresalga */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
+    background-color: #fff; /* Fondo blanco para la tarjeta */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto de transición suave */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Efecto de aumento al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el ratón */
+}
+.card-body{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#boton{
+        margin-top: -3px;
+    }
+
+
+@media (max-width: 700px) {
+    .main{
+        width: 80%;
+    }
+
+    #boton{
+        margin-top: 10px;
+    }
+}
+
+
+</style>
+<main class="main" >
+
+
+{% for item in juegos %}
+
+    <div class="card" style="width: 400px; height: auto; display: flex; margin: 0 auto; border-radius: 10px;" >
+        <img src="{{ item.img }}" style="object-fit: cover; height: 50%; width: 100%;" >
+        <div class="card-body" style="display: flex; justify-content: space-around;">
+            <h5 class="card-title">{{ item.name }}</h5>
+            <p class="card-text"><small class="text-body-secondary">Fecha De Lanzamiento - {{item.fecha}}</small></p>
+            <p class="card-text">{{ item.descripcion }}</p>
+            <a href="{{ item.link1 }}" id="boton" target="_blank" class="btn btn-primary">PC</a>
+            <a href="{{ item.link2 }}" id="boton" class="btn btn-primary" aria-disabled="true">ANDROID</a>
+
+        </div>
+    </div>
+{% endfor %}
+
+</main>
+
+{% endblock %}

@@ -19,6 +19,15 @@ def fnaf():
 
     return render_template('fnaf.html', title=title, juegos=juegos)
 
+@jg.route('/gameloft')
+def gameold():
+    title = "Juegos Old"
+
+    with open('JUEGOS/game.json') as json_file:
+        juegos = json.load(json_file)
+
+    return render_template('gameOld.html', title=title, juegos=juegos)
+
 @jg.route('/subir')
 def subir():
     return render_template('subir.html')

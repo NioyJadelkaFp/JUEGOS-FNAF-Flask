@@ -1,35 +1,50 @@
 [
-    {
-      "nombre": "Kingdoms & Lords",
-      "fecha": "4 de septiembre de 2012",
-      "descripcion": "Un juego de estrategia y simulación donde los jugadores deben construir y gestionar su propio reino, entrenar ejércitos y luchar contra enemigos para expandir su territorio.",
-      "img": "https://i.postimg.cc/k5QgbNxc/Kingdoms-Lords.webp",
-      "link1": "https://www.mediafire.com/file/vo7ldokxkr22yf8/KingdomsAndLords_HUAWEI_Y360_IGP_LATAM_ML_IAP_TS_101.apk/file",
-      "link2": "https://www.mediafire.com/file/z6sw6mg5dzh9d1n/DragonMan%C3%ADa.apk/file"
-    },
-    {
-      "nombre": "Dragon Manía",
-      "fecha": "8 de enero de 2015",
-      "descripcion": "Un juego de cría de dragones donde los jugadores pueden criar, entrenar y luchar con sus propias criaturas. Los jugadores deben cuidar de sus dragones mientras conquistan islas y luchan en batallas.",
-      "img": "https://i.postimg.cc/RCXqdT2p/Dragon-Man-a.jpg",
-      "link1": "https://www.mediafire.com/file/j9i2r5pt73punj2/Fashion_Icon.apk/file",
-      "link2": "https://www.mediafire.com/file/yhxqk9pzie8iy1d/100Juegos_WidgetApp_AndroidGeneric_KZ97_PN_LN_LATAM_TIGO_v107.apk/file"
-    },
-    {
-      "nombre": "Fashion Icon",
-      "fecha": "21 de mayo de 2012",
-      "descripcion": "Un juego de moda donde los jugadores crean y personalizan a su personaje, participando en desfiles de moda y adquiriendo nuevas prendas y accesorios para avanzar en su carrera de moda.",
-      "img": "https://i.postimg.cc/K8gzZhjC/Fashion-Icon.jpg",
-      "link1": "https://www.mediafire.com/file/5tvyzr4tz1lwf9p/FiveNightsatFreddys3.exe/file",
-      "link2": "https://www.mediafire.com/file/vjtpa0xvgluq1tk/com.scottgames.fnaf32.0.2.rar/file"
-    },
-    {
-      "nombre": "100 Juegos WidgetApp",
-      "fecha": "15 de diciembre de 2013",
-      "descripcion": "Una aplicación de juegos que ofrece una colección de 100 mini-juegos en un solo lugar. Los usuarios pueden acceder a una amplia variedad de géneros y pasar el tiempo jugando diferentes tipos de juegos.",
-      "img": "https://i.postimg.cc/g0F0jt6j/game.jpg",
-      "link1": "https://www.mediafire.com/file/dpu5m43suvzehq0/FNAF4_OVF2.rar/file",
-      "link2": "https://www.mediafire.com/file/w02g1zg6ozekq1b/com.scottgames.fnaf42.0.2.rar/file"
-    }
-  ]
-  
+  {
+    "nombre": "Kingdoms & Lords",
+    "fecha": "4 de septiembre de 2012",
+    "descripcion": "Un juego de estrategia y simulación donde los jugadores deben construir y gestionar su propio reino, entrenar ejércitos y luchar contra enemigos para expandir su territorio.",
+    "img": "https://i.postimg.cc/k5QgbNxc/Kingdoms-Lords.webp",
+    "link1": "https://www.mediafire.com/file/vo7ldokxkr22yf8/KingdomsAndLords_HUAWEI_Y360_IGP_LATAM_ML_IAP_TS_101.apk/file"
+  },
+  {
+    "nombre": "Dragon Manía",
+    "fecha": "8 de enero de 2015",
+    "descripcion": "Un juego de cría de dragones donde los jugadores pueden criar, entrenar y luchar con sus propias criaturas. Los jugadores deben cuidar de sus dragones mientras conquistan islas y luchan en batallas.",
+    "img": "https://i.postimg.cc/RCXqdT2p/Dragon-Man-a.jpg",
+    "link1": "https://www.mediafire.com/file/z6sw6mg5dzh9d1n/DragonMan%C3%ADa.apk/file"
+  },
+  {
+    "nombre": "Fashion Icon",
+    "fecha": "21 de mayo de 2012",
+    "descripcion": "Un juego de moda donde los jugadores crean y personalizan a su personaje, participando en desfiles de moda y adquiriendo nuevas prendas y accesorios para avanzar en su carrera de moda.",
+    "img": "https://i.postimg.cc/K8gzZhjC/Fashion-Icon.jpg",
+    "link1": "https://www.mediafire.com/file/j9i2r5pt73punj2/Fashion_Icon.apk/file"
+  },
+  {
+    "nombre": "Little Big City",
+    "fecha": "10 de agosto de 2013",
+    "descripcion": "Un simulador de construcción de ciudades donde los jugadores diseñan y gestionan su propia ciudad, construyendo estructuras y manteniendo a los ciudadanos felices.",
+    "img": "https://i.postimg.cc/BvSs1x6x/little-big-city.jpg",
+    "link1": "https://www.mediafire.com/file/miw9pok6w9ttnb1/Little_Big_City.apk/file"
+  },
+  {
+    "nombre": "Total Conquest",
+    "fecha": "15 de septiembre de 2014",
+    "descripcion": "Un juego de estrategia donde los jugadores deben crear y fortificar su imperio, reclutar ejércitos y luchar en batallas épicas para expandir su control.",
+    "img": "https://i.postimg.cc/Hj11WMR8/total-conquest-icon.avif",
+    "link1": "https://www.mediafire.com/file/vqjh858bs8jbas4/Total_Conquest.apk/file"
+  },
+  {
+    "nombre": "Wonder Zoo",
+    "fecha": "5 de julio de 2012",
+    "descripcion": "Un juego de simulación donde los jugadores construyen y gestionan su propio zoológico, rescatando y cuidando animales para atraer visitantes.",
+    "img": "https://i.postimg.cc/mZzcDGKT/download.jpg",
+    "link1": "https://www.mediafire.com/file/8c56znu36k6t6a5/wonder_zoo.apk/file"
+  },{
+    "nombre": "100 Juegos WidgetApp",
+    "fecha": "15 de diciembre de 2013",
+    "descripcion": "Una aplicación de juegos que ofrece una colección de 100 mini-juegos en un solo lugar. Los usuarios pueden acceder a una amplia variedad de géneros y pasar el tiempo jugando diferentes tipos de juegos.",
+    "img": "https://i.postimg.cc/g0F0jt6j/game.jpg",
+    "link1": "https://www.mediafire.com/file/yhxqk9pzie8iy1d/100Juegos_WidgetApp_AndroidGeneric_KZ97_PN_LN_LATAM_TIGO_v107.apk/file"
+  }
+]

@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect
+from flask import Flask, redirect
 from JUEGOS.main import jg
 from PORTAFOLIO.main import pr
 from js.main import js

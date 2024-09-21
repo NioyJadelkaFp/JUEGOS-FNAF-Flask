@@ -1,3 +1,4 @@
+
 from flask import Blueprint, render_template, request, redirect
 import json
 
@@ -5,10 +6,11 @@ jg = Blueprint('jg', __name__, template_folder='templates')
 
 @jg.route('/')
 def home():
+    title = 'Home'
     with open('JUEGOS/mejora.json') as json_file:
         mejoras = json.load(json_file)
 
-    return render_template('home.html', mejoras=mejoras)
+    return render_template('home.html', mejoras=mejoras, title=title)
 
 @jg.route('/fnaf')
 def fnaf():

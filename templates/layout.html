@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylos.css') }}">
     <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>
   window.OneSignalDeferred = window.OneSignalDeferred || [];
@@ -26,7 +27,7 @@
   <nav class="navbar bg-body-tertiary fixed-top">
     <div class="container-fluid" style="display: flex; width: 100%;">
       <img src="https://nioywebsv.netlify.app/assets/favicon-Dop8k49V.jpg" class="img-thumbnail" alt="..." style="width: 50px; height: 50px;">
-      <a class="navbar-brand" href="/juegos/">Nioy Dev</a>
+      <a class="navbar-brand" href="/">Nioy Dev</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,13 +39,16 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/juegos/">Home</a>
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="fnaf">Juegos De Fnaf</a>
+              <a class="nav-link" href="/fnaf">Juegos De Fnaf</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gameloft">Juegos De gameloft</a>
+              <a class="nav-link" href="/gameloft">Juegos De gameloft</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/sincategorias">Sin Categorias</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
